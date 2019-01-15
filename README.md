@@ -92,7 +92,7 @@ With the 'JPAMetaModelEntityProcessor' we automatically generate the JPA metamod
 
 ## In the JSF managed bean (FooBean):
 
-private LazyDataModel<Foo> model = new ExtendedLazyDataModel<Foo>(fooRepository);  
+private LazyDataModel<Foo> model = new ExtendedLazyDataModel`<Foo>`(fooRepository);  
 
 ## In the table layout (foo.xhtml):
 
