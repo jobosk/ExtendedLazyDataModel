@@ -1,7 +1,7 @@
 
 ## Objective
 
-Extend the LazyDataModel by Primefaces in order to implement sorting, pagination and filtering.
+Extend the LazyDataModel by Primefaces in order to implement sorting, pagination and filtering for the entity contained.
 
 ## Dependencies (back-end)
 
