@@ -3,6 +3,10 @@
 
 Extend the LazyDataModel by Primefaces in order to implement sorting, pagination and filtering for the entity contained.
 
+# Explanation:
+
+With the 'JPAMetaModelEntityProcessor' we automatically generate the JPA metamodel of the application classes, which we will need afterwards for type safety when interpreting the table filters, in order to build the criteria for the JPA repository request. Primefaces will automatically load the extended table model and execute the overriden load method, triggering the process that builds the JPA specification for the request, the sorting of the filters applied, and the pagination specified.
+
 # Dependencies: 
 
 ## Back-end:
