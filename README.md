@@ -1,9 +1,11 @@
 
-# Objective
+# Objective:
 
 Extend the LazyDataModel by Primefaces in order to implement sorting, pagination and filtering for the entity contained.
 
-# Dependencies (back-end)
+# Dependencies: 
+
+## Back-end:
 
 `<dependency>`  
 `<groupId>org.hibernate.javax.persistence</groupId>`  
@@ -17,7 +19,23 @@ Extend the LazyDataModel by Primefaces in order to implement sorting, pagination
 `<version>${springdata.version}</version>`  
 `</dependency>`  
 
-# Plugins (back-end)
+## Front-end:
+
+`<dependency>`  
+`    <groupId>org.primefaces</groupId>`  
+`    <artifactId>primefaces</artifactId>`  
+`    <version>6.0</version>`  
+`</dependency>`  
+
+## Custom:
+
+`<dependency>`  
+`  <groupId>org.apache.commons</groupId>`  
+`  <artifactId>commons-lang3</artifactId>`  
+`  <version>3.0</version>`  
+`</dependency>`  
+
+# Plugins (back-end):
 
 `<plugin>`  
 `<groupId>org.bsc.maven</groupId>`  
@@ -66,7 +84,7 @@ Extend the LazyDataModel by Primefaces in order to implement sorting, pagination
 `</executions>`  
 `</plugin>`  
 
-# Usage
+# Usage:
 
 ## In the JSF managed bean (FooBean):
 
